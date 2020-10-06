@@ -8,7 +8,6 @@ bool calculate_value(long long x, long long n, long long k){
 }
 
 void calculate_x_values(long long n){
-    long double n_sqrt = ceil(sqrt(n));
     long double n_log = ceil(log2(n+1));
     for(long long x = 1; x<=n; x++){
         bool encountered = false;
